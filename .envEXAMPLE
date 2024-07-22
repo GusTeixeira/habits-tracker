@@ -1,0 +1,10 @@
+DEV=True
+AMBIENT=hml
+
+HOSTNAME=**********
+# api PORT
+PORT=8080
+DBNAME=**********
+USERNAME=**********
+PASSWORD=**********
+DATABASE_URL=**********
