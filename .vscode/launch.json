@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "HABITS TRACKER - HML",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+			"program": "${workspaceFolder}/cmd/habits-tracker/main.go",
+            "envFile": "${workspaceFolder}/.env.hml",
+        },
+        {
+            "name": "HABITS TRACKER - PROD",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+			"program": "${workspaceFolder}/cmd/habits-tracker/main.go",
+            "envFile": "${workspaceFolder}/.env",
+        },
+    ]
+}
